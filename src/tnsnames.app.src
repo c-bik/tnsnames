@@ -1,0 +1,12 @@
+{application, tnsnames,
+ [
+  {description, "TNS string parser/compiler"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, {tnsnames, []}},
+  {env, []}
+ ]}.
